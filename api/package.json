@@ -5,13 +5,13 @@
   "main": "src/app",
   "scripts": {
     "tsc": "tsc",
-    "start": "SET NODE_ENV=production && tsc && node ./dist/app.js",
+    "start": "NODE_ENV=production && tsc && node ./dist/app.js",
     "client": "(cd ../client && npm run start)",
     "server": "nodemon src/app.ts",
     "clean": "rimraf ./dist ../client/build ",
-    "dev": "SET NODE_ENV=development && concurrently \"npm run server\" \"npm run client\"",
-    "build": "SET NODE_ENV=production && cd ../client && npm run build && cd ../api",
-    "prod": "SET NODE_ENV=production && npm run start",
+    "dev": "NODE_ENV=development && concurrently \"npm run server\" \"npm run client\"",
+    "build": "NODE_ENV=production && cd ../client && npm run build && cd ../api",
+    "prod": "NODE_ENV=production && npm run start",
     "init:packages": "npm install && cd ../client && npm install && cd ../api",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
