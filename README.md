@@ -68,7 +68,7 @@ The Backend was built using **Node + Express** and the Frontend, **React + Redux
 1. Clone the repo:
 
 ```sh
-git clone https://github.com/Effanuel/Bitmex-scaled-orders.git
+git clone https://github.com/sf52crypto/Bitmex-scaled-orders.git
 cd Bitmex-scaled-orders-master/api
 ```
 
@@ -102,7 +102,7 @@ npm run build
 #### TLDR setup:
 
 ```sh
-git clone https://github.com/Effanuel/Bitmex-scaled-orders.git
+git clone https://github.com/sf52crypto/Bitmex-scaled-orders.git
 cd Bitmex-scaled-orders/api
 ```
 
